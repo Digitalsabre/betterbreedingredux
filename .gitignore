@@ -1,0 +1,48 @@
+/download
+/eclipseBin
+
+## gradle
+/.gradle
+/build
+
+## ForgeGradle
+/run
+README.txt
+MinecraftForge-License.txt
+MinecraftForge-Credits.txt
+LICENSE-fml.txt
+CREDITS-fml.txt
+
+## eclipse
+/eclipse
+/.settings
+/.metadata
+/.classpath
+/.project
+/bin
+
+## intellij
+/out
+/.idea
+/*.iml
+/*.ipr
+/*.iws
+/atlassian-ide-plugin.xml
+
+## gedit
+*~
+
+## Minecraft/Forge
+saves/
+logs/
+options.txt
+config/forgeChunkLoading.cfg
+config/splash.properties
+config/forge.cfg
+crash-reports/
+usernamecache.json
+
+#HFS+ (for Mac OS X)
+*.DS_Store
+forge-1.8-11.14.3.1450-changelog.txt
+src/main/resources/._mcmod.info
