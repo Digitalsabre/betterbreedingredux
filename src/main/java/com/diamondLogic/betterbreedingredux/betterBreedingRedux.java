@@ -7,6 +7,7 @@ import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 
+import com.diamondLogic.betterbreedingredux.init.Blocks;
 import com.diamondLogic.betterbreedingredux.init.Items;
 import com.diamondLogic.betterbreedingredux.proxy.CommonProxy;
 
@@ -19,6 +20,8 @@ public class betterBreedingRedux
 	@EventHandler
     public void preInit(FMLPreInitializationEvent event)
     {
+		Blocks.init();
+		Blocks.register();
     	Items.init();
     	Items.register();
     }
