@@ -10,7 +10,8 @@ import net.minecraft.client.resources.model.ModelResourceLocation;
 import net.minecraft.item.Item;
 import net.minecraftforge.fml.common.registry.GameRegistry;
 
-public final class Blocks {
+public final class Blocks extends net.minecraft.init.Blocks
+{
 	
 	public static Block butcher_table;
 	

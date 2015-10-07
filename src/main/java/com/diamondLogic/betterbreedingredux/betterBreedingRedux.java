@@ -1,15 +1,16 @@
 package com.diamondLogic.betterbreedingredux;
 
+import com.diamondLogic.betterbreedingredux.init.Blocks;
+import com.diamondLogic.betterbreedingredux.init.Items;
+import com.diamondLogic.betterbreedingredux.init.Recipes;
+import com.diamondLogic.betterbreedingredux.proxy.CommonProxy;
+
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.Mod.EventHandler;
 import net.minecraftforge.fml.common.SidedProxy;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
-
-import com.diamondLogic.betterbreedingredux.init.Blocks;
-import com.diamondLogic.betterbreedingredux.init.Items;
-import com.diamondLogic.betterbreedingredux.proxy.CommonProxy;
 
 @Mod(modid = Reference.MOD_ID, name = Reference.MOD_NAME, version = Reference.VERSION)
 public class betterBreedingRedux
@@ -29,7 +30,7 @@ public class betterBreedingRedux
     @EventHandler
     public void init(FMLInitializationEvent event)
     {
-
+    	Recipes.init();
     }
     
     @EventHandler
