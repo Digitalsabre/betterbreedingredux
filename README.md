@@ -39,15 +39,18 @@ Thirdly, BBRedux will affect the amount of meat that can be collected from a far
 **Note:** Dogs and Cats, while still obtaining this third value, will not use it.
 
 ### Skinning and Butchering ###
-By obtaining a carcass of a farm animal (including pigs, cows, sheep, rabbits, and chickens), one will be able to obtain skins and meats appropriate to the type of animal.  This is performed by placing the animal in a butchering table with, first, a skinning knife.
+By obtaining a carcass of a farm animal (including pigs, cows, sheep, rabbits, and chickens), one will be able to obtain skins and meats appropriate to the type of animal.  In its final iterations, skinning and butchering wille be performed by placing the animal in a butchering table with, first, a skinning knife.
 
 #### Skinning Knife ####
 The skinning knife can be made of stone, flint, or any Vanilla metal.  It is used to skin the carcasses of animals, removing and recovering leather from cows, hide from rabbits, and feathers from chickens, and also preparing it for butchering.
 
-When skinning is finished, the skinned carcass can be placed into a table with the butcher knife.
+When skinning is finished, the skinned carcass will be able to be placed into a table with the butcher knife.
 
 #### Butcher Knife ####
 Like the skinning knife, the butcher knife can be made of stone, flint, or any Vanilla metal. By placing the knife into a Butcher Table with any skinned corpse, the player will be able to obtain beef from cows, pork from pigs, rabbit meat (not raw rabbit) from rabbits, and chicken meat (not raw chicken) from chickens.
+
+##### Early Versions #####
+Due to limitations of my modding knowledge, early versions of BBRedux will instead use a crafting mechanic that involves the crafting table.  Instead of having two separate tools which can be placed simultaneously into a special butcher table, there will be a single tool (the butcher knife), which will be placed into the crafting grid with a carcass.  A single crafting action will skin the carcass, leaving the damaged butcher knife in the table with a skinned carcass.  The next crafting action will allow the player to obtain the appropriate animal meat.
 
 ## Secondary Mechanics ##
 ### Dung ###
